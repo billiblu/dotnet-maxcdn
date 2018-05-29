@@ -13,7 +13,7 @@ namespace MaxCDN
         private string _alias = "";
         private int _requestTimeout = 180;
 
-        private const string _MaxCDNBaseAddress = "https://rws.maxcdn.com";
+        private const string _MaxCDNBaseAddress = "https://api.stackpath.com/v1";
 
         public Api(string alias, string consumerKey, string consumerSecret, int requestTimeout = 180)
         {
